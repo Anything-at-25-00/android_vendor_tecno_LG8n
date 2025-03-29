@@ -259,42 +259,8 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/LG8n/proprietary/vendor/firmware/soc_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc_fm_v1_coeff.bin \
     vendor/tecno/LG8n/proprietary/vendor/firmware/soc_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc_fm_v1_patch.bin \
     vendor/tecno/LG8n/proprietary/vendor/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi.cfg \
-    vendor/tecno/LG8n/proprietary/vendor/lib/hw/audio.primary.mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mediatek.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/hw/audio.r_submix.mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.mediatek.so \
     vendor/tecno/LG8n/proprietary/vendor/lib/hw/awinic.audio.effect.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/awinic.audio.effect.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkSpeechEnh.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/lib_iir.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_iir.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/lib_speech_enh.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_speech_enh.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/libalsautils-v32.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautils-v32.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/libaudio_param_parser-vnd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_param_parser-vnd.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/libaudioclient_aidl_conversion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioclient_aidl_conversion.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/libaudiocompensationfilter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocompensationfilter_vendor.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/libaudiocompensationfilterc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocompensationfilterc.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/libaudiocomponentengine_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocomponentengine_vendor.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/libaudiocomponentenginec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocomponentenginec.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/libaudiocustparam_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiocustparam_vendor.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/libaudiodcrflt_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiodcrflt_vendor.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/libaudiofmtconv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiofmtconv.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/libaudiofoundation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiofoundation.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/libaudioloudc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioloudc.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/libaudioprimarydevicehalifclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioprimarydevicehalifclient.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/libaudiosmartpamtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiosmartpamtk.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/libaudiotoolkit_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiotoolkit_vendor.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/libaurisysdemo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaurisysdemo.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/libbessound_hd_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbessound_hd_mtk_vendor.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/libblisrc32_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblisrc32_vendor.so \
     vendor/tecno/LG8n/proprietary/vendor/lib/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwc.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvsd_mtk.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libladder.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/libmsbc_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmsbc_mtk.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/libmtklimiter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtklimiter_vendor.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/libmtkshifter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkshifter_vendor.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/libnxp_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnxp_extamp_intf.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/librt_extamp_intf.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeech_enh_lib.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeechparser_vendor.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@6.1.so \
-    vendor/tecno/LG8n/proprietary/vendor/lib/vendor.mediatek.hardware.audio@7.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@7.1.so \
     vendor/tecno/LG8n/proprietary/vendor/lib64/hw/audio.primary.mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.mediatek.so \
     vendor/tecno/LG8n/proprietary/vendor/lib64/hw/audio.r_submix.mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.mediatek.so \
     vendor/tecno/LG8n/proprietary/vendor/lib64/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkSpeechEnh.so \
