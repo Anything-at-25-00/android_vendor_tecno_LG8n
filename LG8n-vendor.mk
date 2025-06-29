@@ -261,5 +261,4 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     awinic.audio.effect \
-    libaal_cust \
-    libaalservice
+    libaal_cust
