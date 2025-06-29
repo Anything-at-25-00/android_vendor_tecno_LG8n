@@ -260,4 +260,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/LG8n/proprietary/vendor/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/libnfc-nxp_RF.conf
 
 PRODUCT_PACKAGES += \
-    awinic.audio.effect
+    awinic.audio.effect \
+    libaal_cust \
+    libaalservice
