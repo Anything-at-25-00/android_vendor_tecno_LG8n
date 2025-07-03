@@ -3,4 +3,57 @@
 //
 
 soong_namespace {
+    imports: [
+        "hardware/mediatek",
+        "hardware/transsion",
+        "vendor/tecno/mt6789-common",
+    ],
+}
+
+cc_prebuilt_library_shared {
+    name: "awinic.audio.effect",
+    owner: "tecno",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib/hw/awinic.audio.effect.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libaal_cust",
+    owner: "tecno",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libaal_cust.so",
+            ],
+            shared_libs: [
+                "libdl",
+                "libc",
+                "libm",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
 }
